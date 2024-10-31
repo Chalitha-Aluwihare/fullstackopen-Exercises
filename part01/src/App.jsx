@@ -9,8 +9,16 @@ function App() {
     <>
       <div>
         <p>Hello World</p>
+        <Name />
+        <Name />
       </div>
     </>
+  )
+}
+
+const Name =() =>{
+  return(
+    <h1>Greetings</h1>
   )
 }
 
